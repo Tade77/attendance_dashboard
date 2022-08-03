@@ -1,0 +1,122 @@
+/* staff-css */
+.staff--info {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+.card:hover {
+  background: rgb(99, 119, 216);
+  cursor: pointer;
+  color: white;
+}
+
+.container {
+  margin-left: 2.5rem;
+}
+.container > .staff--info {
+  background-color: #f0f4f9;
+}
+/* home-css */
+.logo {
+  background: linear-gradient(
+    115.15deg,
+    #00a651 0.24%,
+    #0a895b 32.26%,
+    #253e76 100.72%,
+    #29327a 110.66%
+  );
+}
+.lan-page {
+  height: 90vh;
+  background: white;
+  background-image: url("./assets/Illustration.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 42rem;
+  margin: 1rem 3rem;
+}
+.card {
+  border-radius: 10px;
+  @apply w-3/4 bg-white p-3 text-center;
+
+  /* left: 53.54%;
+  right: 5.69%;
+  top: 22.33%;
+  bottom: 13.67%; */
+}
+
+.user {
+  width: 8rem;
+  @apply rounded-full h-32 w-32 mx-4;
+}
+.nav {
+  @apply flex gap-8 mx-20 my-5;
+}
+.search {
+  position: absolute;
+  left: 74.08%;
+  right: 6.94%;
+  top: 5%;
+  bottom: 89.56%;
+  background-color: rgba(145, 218, 145, 0.9);
+}
+.aside {
+  border-left: 2px solid rgba(167, 255, 167, 0.884);
+  margin-left: 2rem;
+}
+.txt,
+.inp {
+  margin-top: 2rem;
+}
+.form {
+  position: absolute;
+  top: 80px;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  background: #6cf5cc;
+  margin-left: 5rem;
+  box-shadow: 0 0 12px;
+}
+.inp {
+  width: 200px;
+  /* margin-bottom: 5rem; */
+}
+.link {
+  /* border: 2px solid greenyellow;
+  max-width: fit-content;
+  background-color: #00a651; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 75px;
+  gap: 10px;
+
+  position: absolute;
+  left: 6.94%;
+  right: 62.32%;
+  top: 72.11%;
+  bottom: 20.11%;
+  color: white;
+
+  background: linear-gradient(92.42deg, #079258 0%, #1e4c6e 100%);
+  box-shadow: 0px 10px 35px rgba(9, 80, 115, 0.3);
+  border-radius: 0px 20px;
+}
+.new--user {
+  display: flex;
+  position: absolute;
+  width: 806px;
+  height: 982px;
+  left: 500px;
+  top: 30px;
+
+  /* background: #fbfbfb; */
+}
+
+/* hover: #273eac */

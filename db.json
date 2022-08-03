@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89jHNlQ1EBUALGx3UtZvRc-p9MyKOJEOzTg&usqp=CAU",
+      "name": "Balogun Miskiat",
+      "department": "Advance class"
+    },
+    {
+      "id": 1,
+      "image": "https://image.shutterstock.com/image-vector/male-human-body-silhouette-shadow-260nw-626811005.jpg",
+      "name": "Amosa Mikail",
+      "department": "Advance class"
+    },
+
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkKu1rhh09Vk6WW3ZVfEEMwIxTUizJVbLRag&usqp=CAU",
+      "name": "Adekeye Taofeeq",
+      "department": "Advance class"
+    },
+    {
+      "id": 3,
+      "image": "https://media.gettyimages.com/photos/beauty-portrait-of-young-woman-picture-id1309405076?s=612x612",
+      "name": "Ishola Halima",
+      "department": "Basic class"
+    },
+    {
+      "id": 4,
+      "image": "https://media.gettyimages.com/photos/confident-young-man-wearing-purple-tshirt-picture-id1092658864?s=612x612",
+      "name": "Abdullah Adam",
+      "department": "New Bee"
+    },
+    {
+      "id": 5,
+      "image": "https://media.gettyimages.com/photos/handsome-young-adult-businessman-with-stubble-picture-id1250238624?s=612x612",
+      "name": "Lawal Thaabit",
+      "department": "New Bee"
+    },
+    {
+      "id": 6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRJKEb3xKDCPYnEAJW99iOsOBEqp1JTQS1A&usqp=CAU",
+      "name": "Muritadoh Kudiroh",
+      "department": "Internship"
+    },
+    {
+      "id": 7,
+      "image": "https://static.wikia.nocookie.net/starwars/images/3/35/Dookus_face.png/revision/latest?cb=20130928015116",
+      "name": "Paranti Abdulsomad",
+      "department": "Basic class"
+    },
+    {
+      "id": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnqb9ADjIIEn6cJkZOAAqISY8TUaD3RhB6rw&usqp=CAU",
+      "name": "Lawal Rasheed",
+      "department": "BackEnd"
+    },
+    {
+      "id": 9,
+      "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Abdulsamil Ajala",
+      "department": "Fullstack Developer"
+    }
+  ]
+}
