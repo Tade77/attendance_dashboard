@@ -10,7 +10,15 @@ const User_details = ({ searchUser, handleDetails }) => {
           key={user.id}
           className="single  flex flex-col items-center rounded-xl"
         >
-          <img className="user" src={`${user.image}`} alt={user.image} />
+          <img
+            className="user"
+            src={
+              user.image
+                ? user.image
+                : "https://participate.peoplepowered.org/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg"
+            }
+            alt={user.image}
+          />
           <h3 className="name text-center text-3xl">{user.name}</h3>
           <p className="dep text-center text-xl">{user.department}</p>
           <div>

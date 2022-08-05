@@ -12,7 +12,6 @@
       "name": "Amosa Mikail",
       "department": "Advance class"
     },
-
     {
       "id": 2,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkKu1rhh09Vk6WW3ZVfEEMwIxTUizJVbLRag&usqp=CAU",
@@ -60,6 +59,12 @@
       "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "name": "Abdulsamil Ajala",
       "department": "Fullstack Developer"
+    },
+    {
+      "name": "codevillage",
+      "department": "cs",
+      "password": "123",
+      "id": 11
     }
   ]
 }

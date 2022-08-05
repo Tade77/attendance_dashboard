@@ -24,27 +24,39 @@ const App = () => {
         setUsers(data);
       });
   }, []);
-  const addNewUser = (e) => {
+  const addNewUser = async (e) => {
     e.preventDefault();
+    e.target.value;
     const details = {
       name: newName,
       department: newDep,
       password: newPass,
       id: users.length + 1,
     };
-    setUsers(users.concat(details));
+    try {
+      axios.post("http://localhost:3001/users", details).then((res) => {
+        setUsers(users.concat(res.data));
+        setMewName("");
+        setNewDep("");
+        setNewPass("");
+      });
+    } catch {
+      (error) => console.log(error);
+    }
+
+    // setUsers(users.concat(details));
   };
   const handleNewName = (e) => {
     setMewName(e.target.value);
-    // console.log(e.target.value);
+    console.log(e.target.value);
   };
   const handleNewDep = (e) => {
     setNewDep(e.target.value);
-    // console.log(e.target.value);
+    console.log(e.target.value);
   };
   const handleNewPass = (e) => {
     setNewPass(e.target.value);
-    // console.log(e.target.value);
+    console.log(e.target.value);
   };
   const handleSearch = async (e) => {
     e.preventDefault();
