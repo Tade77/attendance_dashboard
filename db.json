@@ -65,6 +65,18 @@
       "department": "cs",
       "password": "123",
       "id": 11
+    },
+    {
+      "name": "Sulaiman Maryam",
+      "department": "Advance Class",
+      "password": "trgsjdhgf",
+      "id": 12
+    },
+    {
+      "name": "Master Mubashir",
+      "department": "instructor",
+      "password": "gfhjdks",
+      "id": 13
     }
   ]
 }

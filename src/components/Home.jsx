@@ -12,7 +12,7 @@ const Home = ({ handleSearch, searchUser }) => {
           className="search"
         />
         {searchUser.map((user) => (
-          <Link to="Users_details">
+          <Link to={`Users_details/${user.id}`}>
             <div key={user.id}>
               <p>{user.name}</p>
             </div>

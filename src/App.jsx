@@ -77,38 +77,38 @@ const App = () => {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route>
-            <Route
-              index="/"
-              element={
-                <Home handleSearch={handleSearch} searchUser={searchUser} />
-              }
-            />
-            <Route path="Staff" element={<Staff users={users} />} />
-            <Route
-              path="NewUser"
-              element={
-                <NewUser
-                  addNewUser={addNewUser}
-                  handleNewName={handleNewName}
-                  handleNewDep={handleNewDep}
-                  handleNewPass={handleNewPass}
-                />
-              }
-            />
-          </Route>
-          <Route path="/">
-            {/* <Route index={true} element={<Home />} /> */}
-            <Route
-              path="Users_details"
-              element={
-                <User_details
-                  searchUser={searchUser}
-                  handleDetails={handleDetails}
-                />
-              }
-            />
-          </Route>
+          {/* <Route> */}
+          <Route
+            path="/"
+            element={
+              <Home handleSearch={handleSearch} searchUser={searchUser} />
+            }
+          />
+          <Route path="Staff" element={<Staff users={users} />} />
+          <Route
+            path="NewUser"
+            element={
+              <NewUser
+                addNewUser={addNewUser}
+                handleNewName={handleNewName}
+                handleNewDep={handleNewDep}
+                handleNewPass={handleNewPass}
+              />
+            }
+          />
+          {/* </Route> */}
+          {/* <Route path="/"> */}
+          {/* <Route index={true} element={<Home />} /> */}
+          <Route
+            path="Users_details/:id"
+            element={
+              <User_details
+                searchUser={searchUser}
+                handleDetails={handleDetails}
+              />
+            }
+          />
+          {/* </Route> */}
         </Routes>
       </div>
     </div>
